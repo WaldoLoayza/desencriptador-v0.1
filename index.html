@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="imagenes/logo.svg" alt="logo">
+        </header>
+
+        <main>
+            <div class="contenido_main">
+                <section class="section1">
+                    <div class="contenedorcajatexto">
+                        <textarea  placeholder="Ingrese el texto" class="cajatexto"></textarea>    
+                    </div>
+    
+                    <div class="alerta">
+                        <img src="imagenes/alerta.svg" alt="alerta">
+                        <p>Use solo minúsculas y sin tilde</p>
+                    </div>
+                    <div class="contenedor_botones">
+                        <input type="button" class="boton_encriptar" value="Encriptar">
+                        <input type="button" class="boton_desencriptar" value="Desencriptar">
+                    </div>  
+                </section>
+    
+                <section class="section2">
+                    <div class="contenedor_munieco">
+                        <img src="imagenes/munieco.svg" alt="logo de persona">
+                    </div>
+                    <div class="contenedor_parrafo">
+                        <h3>Ningún mensaje fué <br> encontrado</h3>
+                        <p>Ingresa el texto que deseas encriptar o <br> desencriptar</p>
+                    </div>
+                    <div class="contenedor_copiar">
+                        <input type="button" class="boton_copiar" value="Copiar">
+                    </div>
+                    <div class="contenedor_resultado">
+                        <p class="texto_resultado"></p>
+                    </div>
+                </section>
+            </div>
+            
+
+        </main>
+
+    </body>
+    <script src="index.js"></script>
+</html>
